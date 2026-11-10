@@ -1,0 +1,104 @@
+<meta charset="UTF-8">
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>달빛카페 메뉴판</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 24px 16px;
+      background-color: #fcfbf7;
+      color: #222222;
+      font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", "Noto Sans KR", sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 100vh;
+      box-sizing: border-box;
+    }
+    header {
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #e2d9cc;
+    }
+    h1 {
+      font-size: 36px;
+      font-weight: bold;
+      margin: 0;
+      color: #1a1a1a;
+      word-break: keep-all;
+    }
+    .menu-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 auto;
+      width: 100%;
+      max-width: 480px;
+    }
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #ffffff;
+      margin-bottom: 16px;
+      padding: 24px 20px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      border: 1px solid #efebe4;
+    }
+    .item-name {
+      font-size: 24px;
+      font-weight: 700;
+      color: #2c2c2c;
+    }
+    .item-price {
+      font-size: 24px;
+      font-weight: 700;
+      color: #d9534f;
+    }
+    footer {
+      text-align: center;
+      padding-top: 30px;
+      margin-bottom: 10px;
+      border-top: 1px solid #e2d9cc;
+    }
+    footer p {
+      font-size: 18px;
+      color: #777777;
+      margin: 0;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>달빛카페</h1>
+  </header>
+
+  <main>
+    <ul class="menu-list">
+      <li class="menu-item">
+        <span class="item-name">아메리카노</span>
+        <span class="item-price">3,500원</span>
+      </li>
+      <li class="menu-item">
+        <span class="item-name">카페라떼</span>
+        <span class="item-price">4,000원</span>
+      </li>
+      <li class="menu-item">
+        <span class="item-name">딸기케이크</span>
+        <span class="item-price">5,500원</span>
+      </li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>가상의 가게입니다</p>
+  </footer>
+
+</body>
+</html>
